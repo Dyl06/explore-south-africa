@@ -25,6 +25,31 @@ h1 {
     margin-left: 20px;
 }
 
+/* menu links */
+
+#menu {
+    font-size: 120%;
+    float: right;
+    margin-right: 15px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: left;
+    margin-left: 15px;
+    list-style-type: none; 
+    text-transform: uppercase;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #211F1F;
+}
+
 #logo a {
     text-decoration: none;
 }
+
