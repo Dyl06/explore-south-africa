@@ -30,18 +30,17 @@ h1 {
 #menu {
     font-size: 120%;
     float: right;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 100px;
 }
 
 #menu li {
     float: left;
-    margin-left: 15px;
+    margin-left: 20px;
     list-style-type: none; 
-    text-transform: uppercase;
 }
 
 #menu a {
@@ -49,7 +48,12 @@ h1 {
     color: #211F1F;
 }
 
-#logo a {
-    text-decoration: none;
+#menu a:hover {
+    border-bottom: 1px solid #323232;
 }
+
+.active {
+    border-bottom: 1px solid #323232;
+}
+
 
