@@ -10,6 +10,12 @@ body {
     color: #211F1F;
 }
 
+#top {
+    height: 150px;
+    width: 100%;
+    background: rgb(212, 210, 176);
+}
+
 /* heading and logo */
 h1 {
     font-family: 'Archivo Narrow', sans-serif;
@@ -34,7 +40,8 @@ h1 {
 }
 
 #menu, #logo {
-    line-height: 100px;
+    margin-top: 50px;
+    line-height: 75px;
 }
 
 #menu li {
@@ -64,6 +71,18 @@ img {
     position: relative;
 }
 
+#social-media {
+    height: 150px;
+    width: 100%;
+    background: rgb(212, 210, 176);
+}
+
 #socials {
-    color: inherit;
+    font-size: 50px;
+    text-align: center;
+}
+
+#socials i {
+    color:#323232;
+    margin: 50px 75px;
 }
