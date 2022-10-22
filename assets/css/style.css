@@ -66,27 +66,13 @@ h1, h2, h3 {
 
 /* main image */
 
-img {
+#ele-pic {
     width: 100%;
     max-height: 500px;
     position: relative;
 }
 
-#social-media {
-    height: 150px;
-    width: 100%;
-    background: #071326;
-}
-
-#socials {
-    font-size: 50px;
-    text-align: center;
-}
-
-#socials i {
-    color:rgb(212, 210, 176);
-    margin: 50px 75px;
-}
+/* Destination section */
 
 #destination {
     text-align: center;
@@ -111,8 +97,7 @@ img {
 
 #middle {
     margin-top: 30px;
-    height: 250px;
-    
+    height: 500px;
 }
 
 .text h3 {
@@ -146,3 +131,27 @@ button  {
  .text a:hover {
     zoom: 110%;
  }
+
+ #dest-pic {
+    max-height: 300px;
+    margin-top: 15px;
+    bottom: 0;
+ }
+
+/* Footer */
+
+#social-media {
+    height: 150px;
+    width: 100%;
+    background: #071326;
+}
+
+#socials {
+    font-size: 50px;
+    text-align: center;
+}
+
+#socials i {
+    color:rgb(212, 210, 176);
+    margin: 50px 75px;
+}
