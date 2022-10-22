@@ -87,3 +87,42 @@ img {
     margin: 50px 75px;
 }
 
+#destination {
+    text-align: center;
+    font-size: 200%;
+}
+
+#left {
+    margin-top: 30px;
+    width: 33%;
+    height: 250px;
+    float: left;
+    background: blue;
+}
+
+#right {
+    margin-top: 30px;
+    width: 33%;
+    height: 250px;
+    float: right;
+    background: red;
+}
+
+#middle {
+    margin-top: 30px;
+    height: 250px;
+    background: green;
+}
+
+.text h3 {
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.text p {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+}
