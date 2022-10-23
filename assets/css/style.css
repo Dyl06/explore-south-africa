@@ -168,3 +168,25 @@ button  {
     color:rgb(212, 210, 176);
     margin: 50px 75px;
 }
+
+/* Booking Page */
+
+#outer-pic {
+    width: 100%;
+    postion: relative;
+}
+
+#form-pic {
+    width: 100%;
+    max-height: 700px;
+}
+
+form {
+    height: 400px;
+    width: 400px;
+    bottom: 150px;
+    left: 50px;
+    background: rgb(212, 210, 176);
+    opacity: 0.6;
+     position: absolute;
+}
