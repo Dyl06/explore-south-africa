@@ -169,6 +169,21 @@ button  {
     margin: 50px 75px;
 }
 
+/* Safari Page */ 
+
+/* Gallery */
+
+#gallery-container {
+    column-count: 4;
+    column-gap: 0;
+}
+
+#gallery-container > img {
+    width: 100%;
+    height: 33%
+    border: #323232 2px solid;
+}
+
 /* Booking Page */
 
 #outer-pic {
