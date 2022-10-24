@@ -185,7 +185,8 @@ button  {
 
 #gallery-container > img {
     width: 100%;
-    height: 33%
+    height: 30%;
+    border: #323232 2px solid;
 }
 
 /* Booking Page */
