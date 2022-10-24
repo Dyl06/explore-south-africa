@@ -35,19 +35,42 @@
     <section id="outer-pic">
         <img id="form-pic" src="assets/images/Safari Vehicle parked next to river.webp" alt="Safari vehicle parked in river bed">
         <form id="overlap" action="post">
+            <fieldset>
+                <legend>
+                    Personal Details
+                </legend>
             <label for="Name">Name</label>
             <input type="text">
+            <br>
             <label for="surname">Surname</label>
             <input type="text">
+            <br>
             <label for="email">Email</label>
             <input type="email" value="Email">
-            <label for="destination">Destination</label>
-            <input type="checklist">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Travel Details
+            </legend>
+            <label for="dest">Destination</label>
+            <input type="text" id="dest" list="places">
+            <datalist id="places">
+                <option value="Safari"></option>
+                <option value="Beach"></option>
+                <option value="Mountain"></option>
+            </datalist>
+            <br>
             <label for="departure">Depart</label>
             <input type="date">
+            <br>
             <label for="return">Return</label>
             <input type="date">
-            <input type="submit" value="Book Now">
+            <br>
+             </fieldset>
+             <button>
+                <h2><a href="#">Book Now</a></h2>
+            </button>
         </form>
     </section>
     <footer id="social-media">
