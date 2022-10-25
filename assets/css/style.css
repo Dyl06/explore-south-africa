@@ -74,6 +74,64 @@ h1, h2, h3 {
 
 /* Destination section */
 
+.dest-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.safari {
+    display: flex;
+    width: 33%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.beach {
+    display: flex;
+    width: 33%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mountain {
+    display: flex;
+    width: 33%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center {
+    align-self: center;
+    
+}
+
+.text {
+   width: 100%;
+   height: 30%; 
+}
+
+.button {
+   width: 100%;
+   height: 10%; 
+}
+
+.image {
+   width: 100%;
+   height: 60%; 
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+/*
 #destination {
     text-align: center;
     font-size: 300%;
@@ -150,6 +208,7 @@ button  {
     height: 100%;
     border: #323232 2px solid;
 }
+*/
 
 /* Footer */
 
