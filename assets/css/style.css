@@ -132,6 +132,24 @@ button {
     padding-top: 10px;
 }
 
+.text h3 {
+    text-align: center;
+    font-size: 175%;
+    margin-bottom: 15px;
+}
+
+.text a {
+    text-decoration: none;
+    color: #211F1F;
+    text-transform: none;
+}
+
+#dest-logo {
+    font-size: 300%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 /*
 #destination {
     text-align: center;
