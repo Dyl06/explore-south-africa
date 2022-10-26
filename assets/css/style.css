@@ -269,4 +269,17 @@ button:hover {
     padding-left: 15px;
     }
 
-   
+    @media (max-width:1024px) {
+        #overlap {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    .bg-image img {
+        background-size: contain;
+    }
+}
