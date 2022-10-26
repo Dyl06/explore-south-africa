@@ -276,14 +276,39 @@ button  {
 }
 
 #gallery-container {
-    column-count: 3;
+    column-count: 2;
     column-gap: 0;
 }
 
 #gallery-container > img {
     width: 100%;
-    height: 30%;
+    height: auto;
     border: #323232 2px solid;
+    
+}
+
+@media (min-width: 1201px) {
+    #gallery-container {
+        column-count: 4;
+    }
+
+    #gallery-container > img {
+        width: 100%;
+        height: auto;
+        border: #323232 2px solid;
+}
+}
+
+@media (max-width: 480px) {
+    #gallery-container {
+        column-count: 1;
+    }
+
+    #gallery-container > img {
+        width: 100%;
+        height: auto;
+        border: #323232 1px solid;
+}
 }
 
 /* Booking Page */
