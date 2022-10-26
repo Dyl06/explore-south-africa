@@ -240,39 +240,30 @@ button:hover {
 
 /* Booking Page */
 
-#outer-pic {
+.bg-image {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bg-image img {
+    height: 100%;
     width: 100%;
-    postion: relative;
 }
 
-#form-pic {
-    width: 100%;
-    max-height: 700px;
-}
+.booking-form {
+    position: absolute;
+   }
 
-form {
-    height: 400px;
-    width: 400px;
-    bottom: 150px;
-    left: 50px;
-    background: rgb(212, 210, 176);
-    opacity: 0.6;
-     position: absolute;
-}
-
-#overlap {
+   #overlap {
+    height: 60vh;
+    width: 35vw;
+    border: 2px solid #211F1F;
     font-size: 150%;
-    padding-left: 20px;
-    padding-top: 20px;
-    border: #323232 4px solid;
-}
-
-.bk-now {
-    text-decoration: none;
-    color: #323232;
-}
-
-.bk-now:hover {
-    zoom: 110%;
-    text-decoration: underline;
-}
+    opacity: 0.6;
+    background: rgb(212, 210, 176);
+    padding-left: 15px;
+    }
