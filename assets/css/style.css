@@ -219,17 +219,27 @@ button:hover {
     text-align: center;
 }
 
-/* About us */
+/* About us & Reviews */
+
+.ar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+}
 
 .about-container {
     display: flex;
-    width: 40vw;
-    height: auto;
+    align-self: center;
     justify-content: center;
     flex-direction: column;
+    width: 40vw;
+    height: auto;
 }
 
-.about-head {
+.about-text {
     align-self: center;
 }
 
