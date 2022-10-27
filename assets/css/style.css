@@ -242,6 +242,39 @@ button:hover {
 .about-text {
     align-self: center;
 }
+/*
+.review-container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: 100px;
+}
+
+.r-text {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+*/
+.review-container {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.r-text {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: #211F1F 1px solid;
+}
+
 
 /* Footer */
 
