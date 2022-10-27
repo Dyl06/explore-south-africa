@@ -237,6 +237,27 @@ button:hover {
     margin: 50px 75px;
 }
 
+@media (max-width:480px) {
+
+    #social-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+    }
+
+    #socials i {
+        margin: 10px 10px;
+        text-align: center;
+    }
+}
+
 /* Safari Page */ 
 
 /* Gallery */
