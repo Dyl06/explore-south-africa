@@ -124,6 +124,14 @@ h1, h2, h3 {
 
 @media (max-width:480px) {
 
+    #top {
+        height: 100px;
+    }
+
+    #logo {
+        font-size: 1.5em;
+    }
+
     .dest-container {
         display: flex;
         width: 100vw;
@@ -160,16 +168,19 @@ h1, h2, h3 {
         align-self: center;
         justify-content: center;
         flex-direction: column;
-        width: 100vw;
+        width: 90vw;
         height: auto;
+        margin-bottom: 15px;
+        align-items: center;
     }
 
     .r-text {
         height: auto;
-        width: 100vw;
+        width: 90vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-self: center;
     }
 }
 
@@ -237,7 +248,7 @@ button:hover {
     width: 100vw;
     height: auto;
 }
-/*
+
 .about-container {
     display: flex;
     align-self: center;
@@ -246,7 +257,7 @@ button:hover {
     width: 40vw;
     height: auto;
 }
-*/
+
 .about-text {
     align-self: center;
 }
@@ -257,7 +268,7 @@ button:hover {
     display: flex;
     flex-direction: column;
 }
-/*
+
 .r-text {
     height: auto;
     width: 100vw;
@@ -265,7 +276,7 @@ button:hover {
     flex-direction: row;
     justify-content: space-around;
 }
-*/
+
 #r-text p {
     border: #323232 1px solid;
     padding: 8px 8px;
@@ -313,6 +324,29 @@ button:hover {
 
 /* Safari Page */ 
 
+.saf-container {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+}
+
+.saf-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    font-size: 1.5em;
+    }
+
+    .saf-text {
+        font-size: 1.2em;
+        width: 95vw;
+    }
+
 /* Gallery */
 
 #heading {
@@ -359,7 +393,7 @@ button:hover {
 /* Booking Page */
 
 .bg-image {
-    height: 100vh;
+    height: 85vh;
     width: 100vw;
     display: flex;
     justify-self: center;
@@ -374,17 +408,18 @@ button:hover {
 
 .booking-form {
     position: absolute;
+    margin-left: 30px;
    }
 
    #overlap {
-    height: 60vh;
-    width: 35vw;
+    height: auto;
+    width: auto;
     border: 2px solid #211F1F;
     color: #211F1F;
     font-size: 150%;
-    opacity: 0.6;
+    opacity: 0.8;
     background: rgb(212, 210, 176);
-    padding-left: 15px;
+    padding: 30px 30px;
     }
 
     @media (max-width:1024px) {
