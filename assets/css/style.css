@@ -176,6 +176,11 @@ h1, h2, h3 {
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
     }
+
+    #menu a {
+        color: #211F1F;
+        text-decoration: none;
+    }
   }
 
 /* main image */
