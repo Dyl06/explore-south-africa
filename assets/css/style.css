@@ -10,12 +10,6 @@ body {
     color: #323232;
 }
 
-#top {
-    height: 150px;
-    width: 100%;
-    background:#071326;
-}
-
 /* heading and logo */
 h1, h2, h3 {
     font-family: 'Archivo Narrow', sans-serif;
@@ -73,8 +67,9 @@ h1, h2, h3 {
     justify-content: space-between;
     background-color: #323232;
     background: #071326;
+    width: auto;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #FFF;
+    color: rgb(212, 210, 176);
     height: 150px;
     padding: 1em;
   }
@@ -175,7 +170,7 @@ h1, h2, h3 {
       margin: 0;
       padding: 0.5em 0;
       width: 100%;
-      color: white;
+      color: #211F1F;
       background-color: rgb(212, 210, 176);
     }
     .menu > li:not(:last-child) {
