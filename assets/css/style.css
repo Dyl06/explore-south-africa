@@ -185,10 +185,20 @@ h1, h2, h3 {
 
 /* main image */
 
+#head-container {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: row;
+    max-height: 500px;
+    width: 100%;
+}
+
+
 #head-pic {
     width: 100%;
-    max-height: 500px;
-   position: relative;
+    max-height: auto;
+   
 }
 
 #head-pic img {
