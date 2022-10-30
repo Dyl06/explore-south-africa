@@ -536,6 +536,17 @@ button:hover {
 
 @media (max-width: 768px) {
 
+    /* Nav and Main Heading Section */
+
+    #top {
+        height: 100px;
+    }
+
+    #logo {
+        font-size: 2em;
+        margin-left: 10px;
+    }
+
     /* Destination Section */
 
 .safari {
@@ -567,18 +578,13 @@ button:hover {
 
 }
 
-
-
-
-
 @media (max-width:480px) {
 
-    #top {
-        height: 100px;
-    }
+    /* Nav and Main Heading Section */
 
     #logo {
         font-size: 1.5em;
+        margin-left: 5px;
     }
 
     .destination-container {
