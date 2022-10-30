@@ -580,6 +580,27 @@ button:hover {
     width: auto;
 }
 
+/* Footer */
+
+#social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-self: center;
+    align-items: center;
+}
+
+#socials i {
+    margin: 10px 10px;
+    text-align: center;
+    padding-left: 20px;
+}
+
 }
 
 @media (max-width:480px) {
