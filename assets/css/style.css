@@ -300,7 +300,6 @@ button:hover {
     align-self: center;
     justify-content: center;
     align-items: center;
-
 }
 
 .r-text {
@@ -314,7 +313,7 @@ button:hover {
 }
 
 #r-text p {
-    width: 20vw;
+    width: 22vw;
     border: #323232 1px solid;
     padding: 8px 8px;
 }
@@ -416,8 +415,16 @@ button:hover {
 
 /* Media Queries */
 
-    /* Booking Page */
+    @media (max-width:1200px) {
+
+        /* Hamburger Menu */
+        
+    }
+
     @media (max-width:1024px) {
+
+        /* Booking Page */
+
         #overlap {
         display: flex;
         justify-self: center;
@@ -475,6 +482,46 @@ button:hover {
           color: #211F1F;
           text-decoration: none;
       }
+
+      /* Destination Section */
+
+      .destination-container {
+        display: flex;
+        width: 100vw;
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .safari {
+        display: flex;
+        width: 60%;
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+   .beach {
+        display: flex;
+        width: 60%;
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mountain {
+        display: flex;
+        width: 60%;
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+      /* About & Review */
+
+      .about-container {
+        width: 80vw;
+      }
 }
 
 @media (min-width: 1201px) {
@@ -488,6 +535,43 @@ button:hover {
         border: #323232 2px solid;
 }
 }
+
+@media (max-width: 768px) {
+
+    /* Destination Section */
+
+.safari {
+    width: 80vw;
+}
+
+.beach {
+    width: 80vw;
+}
+
+.mountain {
+    width: 80vw;
+}
+
+/* About & Reviews */
+
+.r-text {
+    flex-direction: column;
+    height: auto;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#r-text p {
+    width: auto;
+}
+
+}
+
+
+
+
 
 @media (max-width:480px) {
 
