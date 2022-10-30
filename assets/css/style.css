@@ -600,7 +600,6 @@ button:hover {
     text-align: center;
     padding-left: 20px;
 }
-
 }
 
 @media (max-width:480px) {
@@ -612,6 +611,7 @@ button:hover {
         margin-left: 5px;
     }
 
+    /* Destination Section */
     .destination-container {
         display: flex;
         width: 100vw;
@@ -643,6 +643,7 @@ button:hover {
         flex-direction: column;
     }
 
+    /* About & Review Section */
     .about-container {
         display: flex;
         align-self: center;
@@ -662,9 +663,9 @@ button:hover {
         justify-content: space-around;
         align-self: center;
     }
-}
 
-@media (max-width: 480px) {
+    /* Gallery */
+
     #gallery-container {
         column-count: 1;
     }
@@ -674,9 +675,15 @@ button:hover {
         height: auto;
         border: #323232 1px solid;
 }
-}
 
-@media (max-width:480px) {
+    /* Booking Form */
+
+    .booking-form {
+        position: absolute;
+        margin: 0 10px;
+       }
+       
+    /* Footer */
 
     #social-media{
         display: flex;
