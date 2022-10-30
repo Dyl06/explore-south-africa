@@ -515,6 +515,10 @@ button:hover {
         flex-direction: column;
     }
 
+    .text {
+        height: auto;
+    }
+
       /* About & Review */
 
       .about-container {
