@@ -139,6 +139,9 @@ All testing was done using iphone, samsung galaxy, pixel 5 ipad, surface-pro, ne
 ![reviews not fitting](assets/images/review-not-fitting.png)
 <br>
 Other testing was conducted as the code was being written. I would write out code one instruction at a time and test that until what I wanted to achieve was achieved. 
+All links have been tested to make sure they all open in separate windows. 
+All links to pages within the site have been checked and work correctly. 
+Site has been tested on chrome and safari and functions as expected on both.
 
 #### Lighthouse Reports ####
 ![lighthouse report1](assets/images/lighthouse-home.png)
